@@ -21,3 +21,11 @@
 1. Клонировать репозиторий
 2. Установить зависимости: `pip install -r requirements.txt`
 3. Создать файл `.env` с переменными:
+
+## Allure-отчёт
+
+Для просмотра отчёта выполните:
+
+```bash
+allure generate allure-results -o allure-report
+allure open allure-report
